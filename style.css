@@ -38,3 +38,15 @@
     background-color: blue;
 
 }
+
+#pixel-board {
+
+    border-style: solid;
+
+}
+
+.pixel {
+
+    background-color: white;
+    
+}
