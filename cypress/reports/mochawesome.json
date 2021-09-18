@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 0,
-    "start": "2021-09-15T13:00:15.767Z",
-    "end": "2021-09-15T13:00:18.883Z",
-    "duration": 3116,
+    "start": "2021-09-18T04:46:20.651Z",
+    "end": "2021-09-18T04:46:23.493Z",
+    "duration": 2842,
     "testsRegistered": 41,
     "passPercent": 0,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "376afd5a-3097-41d8-8674-80b3a4339ddc",
+      "uuid": "6a26da64-12a5-4200-a26d-80b0289c52f2",
       "title": "",
       "fullFile": "cypress/integration/project.spec.js",
       "file": "cypress/integration/project.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "cbfb7562-458a-45f0-bae0-eb96a98c157c",
+          "uuid": "e49e4f9c-1ee3-416a-beaa-0ce5be9960f6",
           "title": "1 - Adicione à página o título \"Paleta de Cores\".",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "fullTitle": "1 - Adicione à página o título \"Paleta de Cores\". Verifica se contém um elemento `h1` com o id `title` com o título correto",
               "timedOut": null,
-              "duration": 288,
+              "duration": 255,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -47,12 +47,12 @@
               "context": null,
               "code": "cy.get('h1#title').should('contain.text', 'Paleta de Cores');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '1 - Adicione à página o tít...'",
                 "diff": null
               },
-              "uuid": "459fc66b-9560-4881-9835-7ad1529a9880",
-              "parentUUID": "cbfb7562-458a-45f0-bae0-eb96a98c157c",
+              "uuid": "0d76af93-cb7e-4655-bdb5-3af728c451e5",
+              "parentUUID": "e49e4f9c-1ee3-416a-beaa-0ce5be9960f6",
               "isHook": false,
               "skipped": false
             }
@@ -60,17 +60,17 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "459fc66b-9560-4881-9835-7ad1529a9880"
+            "0d76af93-cb7e-4655-bdb5-3af728c451e5"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 288,
+          "duration": 255,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+          "uuid": "d263f130-6b05-4fe8-89c1-207a40270e8f",
           "title": "2 - Adicione à página uma paleta de quatro cores distintas.",
           "fullFile": "",
           "file": "",
@@ -81,7 +81,7 @@
               "title": "A paleta de cores deve ser um elemento com `id` denominado `color-palette`",
               "fullTitle": "2 - Adicione à página uma paleta de quatro cores distintas. A paleta de cores deve ser um elemento com `id` denominado `color-palette`",
               "timedOut": null,
-              "duration": 266,
+              "duration": 237,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -90,12 +90,12 @@
               "context": null,
               "code": "cy.get('#color-palette').should('be.visible');\ncy.get('#color-palette').children('.color');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '2 - Adicione à página uma p...'",
                 "diff": null
               },
-              "uuid": "d0423eec-8c5e-4a4b-b696-a2c8c175aff3",
-              "parentUUID": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+              "uuid": "b126dc13-7086-47b2-b24d-8ed3fc7afe3f",
+              "parentUUID": "d263f130-6b05-4fe8-89c1-207a40270e8f",
               "isHook": false,
               "skipped": false
             },
@@ -112,8 +112,8 @@
               "context": null,
               "code": "cy.get('.color').should('have.length', 4).then(function (colors) {\n  for (var i = 0; i < colors.length; i++) {\n    cy.wrap(colors[i]).should('be.visible');\n  }\n});",
               "err": {},
-              "uuid": "e479af88-3ca0-423c-b78a-1006f86b41bb",
-              "parentUUID": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+              "uuid": "a4de1f6e-acf6-4c1a-84a9-0e1dfb72b8ef",
+              "parentUUID": "d263f130-6b05-4fe8-89c1-207a40270e8f",
               "isHook": false,
               "skipped": true
             },
@@ -130,8 +130,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).should('have.class', 'color').and('not.have.css', 'background-color', WHITE);\n  cy.wrap(color).should('have.css', 'background-color');\n});",
               "err": {},
-              "uuid": "380f363b-fb33-47ea-9be6-a482e138a473",
-              "parentUUID": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+              "uuid": "1e3e4bf0-b63b-49ee-914c-63c93333e1e1",
+              "parentUUID": "d263f130-6b05-4fe8-89c1-207a40270e8f",
               "isHook": false,
               "skipped": true
             },
@@ -148,8 +148,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  cy.wrap(color).and('have.css', 'border', \"1px solid \".concat(BLACK)).and('have.class', 'color');\n});",
               "err": {},
-              "uuid": "5b984876-1fb3-4646-82a0-0051ca784a51",
-              "parentUUID": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+              "uuid": "b544bb86-5419-4402-99fc-f7ce69b186bd",
+              "parentUUID": "d263f130-6b05-4fe8-89c1-207a40270e8f",
               "isHook": false,
               "skipped": true
             },
@@ -166,8 +166,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  for (var index = 1; index < colors.length; index += 1) {\n    var currentColor = colors[index];\n    var previousColor = colors[index - 1];\n    cy.wrap(currentColor).should('be.onTheRightOf', previousColor).and('be.horizontallyAlignedWith', previousColor);\n  }\n});",
               "err": {},
-              "uuid": "9e8ad2e4-6f61-4270-9337-0f67a9c9c33c",
-              "parentUUID": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+              "uuid": "b7b39b21-b717-42bf-90ec-cc9d123e60b5",
+              "parentUUID": "d263f130-6b05-4fe8-89c1-207a40270e8f",
               "isHook": false,
               "skipped": true
             },
@@ -184,8 +184,8 @@
               "context": null,
               "code": "cy.get('h1#title').then(function (title) {\n  cy.get('#color-palette').should('be.belowOf', title);\n});",
               "err": {},
-              "uuid": "46e96016-feae-4ba3-929e-e2c9bf8802b5",
-              "parentUUID": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+              "uuid": "b4c527c9-e4e7-4916-a154-3832fd116814",
+              "parentUUID": "d263f130-6b05-4fe8-89c1-207a40270e8f",
               "isHook": false,
               "skipped": true
             },
@@ -202,8 +202,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var allColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  cy.log(allColors);\n  var uniqColors = (0, _toConsumableArray2[\"default\"])(new Set(allColors));\n  cy.log(uniqColors);\n  expect(allColors.length).to.eq(uniqColors.length);\n});",
               "err": {},
-              "uuid": "b10a8b85-89f7-44a1-8b02-4d9889e4f170",
-              "parentUUID": "651f7aef-0f20-4960-96a7-ddb41e523a34",
+              "uuid": "b809e7dc-32ef-4c3e-92e3-6b7836628f38",
+              "parentUUID": "d263f130-6b05-4fe8-89c1-207a40270e8f",
               "isHook": false,
               "skipped": true
             }
@@ -211,24 +211,24 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "d0423eec-8c5e-4a4b-b696-a2c8c175aff3"
+            "b126dc13-7086-47b2-b24d-8ed3fc7afe3f"
           ],
           "pending": [],
           "skipped": [
-            "e479af88-3ca0-423c-b78a-1006f86b41bb",
-            "380f363b-fb33-47ea-9be6-a482e138a473",
-            "5b984876-1fb3-4646-82a0-0051ca784a51",
-            "9e8ad2e4-6f61-4270-9337-0f67a9c9c33c",
-            "46e96016-feae-4ba3-929e-e2c9bf8802b5",
-            "b10a8b85-89f7-44a1-8b02-4d9889e4f170"
+            "a4de1f6e-acf6-4c1a-84a9-0e1dfb72b8ef",
+            "1e3e4bf0-b63b-49ee-914c-63c93333e1e1",
+            "b544bb86-5419-4402-99fc-f7ce69b186bd",
+            "b7b39b21-b717-42bf-90ec-cc9d123e60b5",
+            "b4c527c9-e4e7-4916-a154-3832fd116814",
+            "b809e7dc-32ef-4c3e-92e3-6b7836628f38"
           ],
-          "duration": 266,
+          "duration": 237,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "f8fff807-1f4f-45cb-8b10-69486b988c5d",
+          "uuid": "16822852-1904-4c04-aee1-e3004328c5c8",
           "title": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores.",
           "fullFile": "",
           "file": "",
@@ -239,7 +239,7 @@
               "title": "Verifica se a primeira cor da paleta é preta",
               "fullTitle": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores. Verifica se a primeira cor da paleta é preta",
               "timedOut": null,
-              "duration": 272,
+              "duration": 198,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -248,12 +248,12 @@
               "context": null,
               "code": "cy.get('.color').first().should('have.css', 'background-color', BLACK);",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '3 - Adicione a cor **preta*...'",
                 "diff": null
               },
-              "uuid": "0e4e0aaf-889a-4df5-95c1-9cdf607f6bd4",
-              "parentUUID": "f8fff807-1f4f-45cb-8b10-69486b988c5d",
+              "uuid": "fe04b5cf-ab86-4849-95ba-fa9cf99cb90c",
+              "parentUUID": "16822852-1904-4c04-aee1-e3004328c5c8",
               "isHook": false,
               "skipped": false
             },
@@ -270,8 +270,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(1).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(1).should('have.css', 'background-color');\ncy.get('.color').eq(2).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(2).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(2).should('have.css', 'background-color');\ncy.get('.color').eq(3).should('not.have.css', 'background-color', BLACK);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', WHITE);\ncy.get('.color').eq(3).should('not.have.css', 'background-color', 'rgba(0, 0, 0, 0)');\ncy.get('.color').eq(3).should('have.css', 'background-color');",
               "err": {},
-              "uuid": "0ea90780-dd4f-4179-af86-4ae7845cbada",
-              "parentUUID": "f8fff807-1f4f-45cb-8b10-69486b988c5d",
+              "uuid": "85d047f8-bcab-4f8c-8669-9b7f93a50eca",
+              "parentUUID": "16822852-1904-4c04-aee1-e3004328c5c8",
               "isHook": false,
               "skipped": true
             }
@@ -279,19 +279,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "0e4e0aaf-889a-4df5-95c1-9cdf607f6bd4"
+            "fe04b5cf-ab86-4849-95ba-fa9cf99cb90c"
           ],
           "pending": [],
           "skipped": [
-            "0ea90780-dd4f-4179-af86-4ae7845cbada"
+            "85d047f8-bcab-4f8c-8669-9b7f93a50eca"
           ],
-          "duration": 272,
+          "duration": 198,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "3418a3b0-f3a8-448f-97ce-3e0cb303884e",
+          "uuid": "bdc26db1-a83c-478b-b440-26d9e3ab85fb",
           "title": "4 - Adicione à página um quadro de pixels, com 25 pixels.",
           "fullFile": "",
           "file": "",
@@ -302,7 +302,7 @@
               "title": "Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "fullTitle": "4 - Adicione à página um quadro de pixels, com 25 pixels. Verifica se o quadro de pixels possui o `id` denominado `pixel-board`",
               "timedOut": null,
-              "duration": 291,
+              "duration": 282,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -311,12 +311,12 @@
               "context": null,
               "code": "cy.get('#pixel-board').should('be.visible');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '4 - Adicione à página um qu...'",
                 "diff": null
               },
-              "uuid": "f45dd991-fd04-4ed6-a1cc-6f0f55860a02",
-              "parentUUID": "3418a3b0-f3a8-448f-97ce-3e0cb303884e",
+              "uuid": "0cf61452-e65b-4f7a-9a5a-6bff04029328",
+              "parentUUID": "bdc26db1-a83c-478b-b440-26d9e3ab85fb",
               "isHook": false,
               "skipped": false
             },
@@ -333,8 +333,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "25516d61-ef25-4a9a-be67-fb3ef150f450",
-              "parentUUID": "3418a3b0-f3a8-448f-97ce-3e0cb303884e",
+              "uuid": "3fe551e1-fd62-4239-af57-3c1b725b39ca",
+              "parentUUID": "bdc26db1-a83c-478b-b440-26d9e3ab85fb",
               "isHook": false,
               "skipped": true
             },
@@ -351,8 +351,8 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "0ac4928c-ebbc-4668-be48-7fc30f0f3ea2",
-              "parentUUID": "3418a3b0-f3a8-448f-97ce-3e0cb303884e",
+              "uuid": "763494ee-7c70-4f17-acea-08a90298e596",
+              "parentUUID": "bdc26db1-a83c-478b-b440-26d9e3ab85fb",
               "isHook": false,
               "skipped": true
             },
@@ -369,8 +369,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "a1bdf02a-d05a-490f-b3e5-b292ab3d95d1",
-              "parentUUID": "3418a3b0-f3a8-448f-97ce-3e0cb303884e",
+              "uuid": "d854453d-8b74-4b37-a927-0e1db47b1b8c",
+              "parentUUID": "bdc26db1-a83c-478b-b440-26d9e3ab85fb",
               "isHook": false,
               "skipped": true
             }
@@ -378,21 +378,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f45dd991-fd04-4ed6-a1cc-6f0f55860a02"
+            "0cf61452-e65b-4f7a-9a5a-6bff04029328"
           ],
           "pending": [],
           "skipped": [
-            "25516d61-ef25-4a9a-be67-fb3ef150f450",
-            "0ac4928c-ebbc-4668-be48-7fc30f0f3ea2",
-            "a1bdf02a-d05a-490f-b3e5-b292ab3d95d1"
+            "3fe551e1-fd62-4239-af57-3c1b725b39ca",
+            "763494ee-7c70-4f17-acea-08a90298e596",
+            "d854453d-8b74-4b37-a927-0e1db47b1b8c"
           ],
-          "duration": 291,
+          "duration": 282,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "ede638a7-0bf2-41e8-8759-0a7ab3a92513",
+          "uuid": "c04575ad-c798-4236-ac88-6372d40560ee",
           "title": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel.",
           "fullFile": "",
           "file": "",
@@ -403,7 +403,7 @@
               "title": "Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "fullTitle": "5 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel. Verifica se o quadro de pixels tem altura e comprimento de 5 elementos",
               "timedOut": null,
-              "duration": 220,
+              "duration": 210,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -412,12 +412,12 @@
               "context": null,
               "code": "cy.get('.pixel').should('have.length', 25).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n}).and(function (pixels) {\n  var rows = chunk(pixels, 5);\n  rows.forEach(function (row) {\n    for (var index = 1; index < row.length; index += 1) {\n      var current = pixels[index];\n      var previous = pixels[index - 1];\n      cy.wrap(current).should('be.onTheRightOf', previous).and('be.horizontallyAlignedWith', previous);\n    }\n  });\n  for (var index = 1; index < 5; index += 1) {\n    expect(pixels[index * 5]).to.be.belowOf(pixels[(index - 1) * 5]);\n  }\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '5 - Faça com que cada eleme...'",
                 "diff": null
               },
-              "uuid": "61b01f6e-397f-47bc-a231-1b36c2eb72e4",
-              "parentUUID": "ede638a7-0bf2-41e8-8759-0a7ab3a92513",
+              "uuid": "dd5b9fc1-b419-446b-8e14-739f23437d1f",
+              "parentUUID": "c04575ad-c798-4236-ac88-6372d40560ee",
               "isHook": false,
               "skipped": false
             },
@@ -434,8 +434,8 @@
               "context": null,
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'height', '40px').and('have.css', 'width', '40px').and('have.css', 'border', \"1px solid \".concat(BLACK));\n});",
               "err": {},
-              "uuid": "7fa1eb1f-124a-415f-8939-8ccfbc3a6039",
-              "parentUUID": "ede638a7-0bf2-41e8-8759-0a7ab3a92513",
+              "uuid": "d5c84912-b82c-4d7c-b5b9-324ac1960e84",
+              "parentUUID": "c04575ad-c798-4236-ac88-6372d40560ee",
               "isHook": false,
               "skipped": true
             }
@@ -443,19 +443,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "61b01f6e-397f-47bc-a231-1b36c2eb72e4"
+            "dd5b9fc1-b419-446b-8e14-739f23437d1f"
           ],
           "pending": [],
           "skipped": [
-            "7fa1eb1f-124a-415f-8939-8ccfbc3a6039"
+            "d5c84912-b82c-4d7c-b5b9-324ac1960e84"
           ],
-          "duration": 220,
+          "duration": 210,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "63a4917b-0834-4c7f-9bc9-606a5e4efb14",
+          "uuid": "08819c3c-a8ef-46d3-b146-2ccad159f474",
           "title": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels",
           "fullFile": "",
           "file": "",
@@ -466,7 +466,7 @@
               "title": "Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "fullTitle": "6 - Defina a cor preta como cor inicial. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels Verifica se o elemento da cor preta possui, inicialmente, a `classe` `selected`",
               "timedOut": null,
-              "duration": 201,
+              "duration": 177,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -475,12 +475,12 @@
               "context": null,
               "code": "cy.get('.selected').first().should('have.css', 'background-color', BLACK);",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '6 - Defina a cor preta como...'",
                 "diff": null
               },
-              "uuid": "43445d2f-3b08-4365-8573-5e11fd3aa46a",
-              "parentUUID": "63a4917b-0834-4c7f-9bc9-606a5e4efb14",
+              "uuid": "2bdb4800-8dc9-4a13-b8b2-2c092f2d7605",
+              "parentUUID": "08819c3c-a8ef-46d3-b146-2ccad159f474",
               "isHook": false,
               "skipped": false
             },
@@ -497,8 +497,8 @@
               "context": null,
               "code": "cy.get('.color:not(:first-child)').each(function (color) {\n  cy.wrap(color).should('not.have.class', 'selected');\n});",
               "err": {},
-              "uuid": "96467333-2676-47f7-aa36-5412099aafde",
-              "parentUUID": "63a4917b-0834-4c7f-9bc9-606a5e4efb14",
+              "uuid": "6e858327-514b-4bf5-9302-dcc28b160757",
+              "parentUUID": "08819c3c-a8ef-46d3-b146-2ccad159f474",
               "isHook": false,
               "skipped": true
             }
@@ -506,19 +506,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "43445d2f-3b08-4365-8573-5e11fd3aa46a"
+            "2bdb4800-8dc9-4a13-b8b2-2c092f2d7605"
           ],
           "pending": [],
           "skipped": [
-            "96467333-2676-47f7-aa36-5412099aafde"
+            "6e858327-514b-4bf5-9302-dcc28b160757"
           ],
-          "duration": 201,
+          "duration": 177,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "519dcf9a-16d6-41bb-875f-1faef6e2c173",
+          "uuid": "34682adb-ef0f-4e78-bd65-f9f185ee2215",
           "title": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro.",
           "fullFile": "",
           "file": "",
@@ -529,7 +529,7 @@
               "title": "Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "fullTitle": "7 - Clicar em uma das cores da paleta, faz com que ela seja selecionada e utilizada para preencher os pixels no quadro. Verifica se somente uma cor da paleta de cores tem a classe `selected` de cada vez",
               "timedOut": null,
-              "duration": 219,
+              "duration": 242,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -538,12 +538,12 @@
               "context": null,
               "code": "cy.get('.color').each(function (selectedColor, selectedColorIndex) {\n  cy.wrap(selectedColor).click();\n  cy.get('.color').each(function (color, colorIndex) {\n    if (colorIndex === selectedColorIndex) {\n      expect(color).to.have[\"class\"]('selected');\n    } else {\n      expect(color).not.to.have[\"class\"]('selected');\n    }\n  });\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '7 - Clicar em uma das cores...'",
                 "diff": null
               },
-              "uuid": "11ca2156-450a-4063-83f5-ffee7dec102f",
-              "parentUUID": "519dcf9a-16d6-41bb-875f-1faef6e2c173",
+              "uuid": "8c9ac863-6b9d-465f-9adf-5d33a5d69840",
+              "parentUUID": "34682adb-ef0f-4e78-bd65-f9f185ee2215",
               "isHook": false,
               "skipped": false
             },
@@ -560,8 +560,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('not.have.class', 'selected');\n  });\n});",
               "err": {},
-              "uuid": "87e7fa0d-d0d3-4fc4-ac6d-d2a02e97b799",
-              "parentUUID": "519dcf9a-16d6-41bb-875f-1faef6e2c173",
+              "uuid": "898f0606-c457-4261-9d70-59e24ca18232",
+              "parentUUID": "34682adb-ef0f-4e78-bd65-f9f185ee2215",
               "isHook": false,
               "skipped": true
             }
@@ -569,19 +569,19 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "11ca2156-450a-4063-83f5-ffee7dec102f"
+            "8c9ac863-6b9d-465f-9adf-5d33a5d69840"
           ],
           "pending": [],
           "skipped": [
-            "87e7fa0d-d0d3-4fc4-ac6d-d2a02e97b799"
+            "898f0606-c457-4261-9d70-59e24ca18232"
           ],
-          "duration": 219,
+          "duration": 242,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "bfe17701-1808-451c-b2a6-53355da046c8",
+          "uuid": "8edc6b5c-49be-4050-a42e-e53e192d27f0",
           "title": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada.",
           "fullFile": "",
           "file": "",
@@ -592,7 +592,7 @@
               "title": "Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "fullTitle": "8 - Clicar em um pixel dentro do quadro após selecionar uma cor na paleta, faz com que o pixel seja preenchido com a cor selecionada. Verifica se ao carregar a página deve ser possível pintar os pixels de preto",
               "timedOut": null,
-              "duration": 208,
+              "duration": 197,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -601,12 +601,12 @@
               "context": null,
               "code": "cy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).click().should('have.css', 'background-color', BLACK);\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '8 - Clicar em um pixel dent...'",
                 "diff": null
               },
-              "uuid": "7945dbd7-db2c-44d4-b9cd-92f60fc07ca7",
-              "parentUUID": "bfe17701-1808-451c-b2a6-53355da046c8",
+              "uuid": "d71711b5-4630-4907-9270-57801d1ce406",
+              "parentUUID": "8edc6b5c-49be-4050-a42e-e53e192d27f0",
               "isHook": false,
               "skipped": false
             },
@@ -623,8 +623,8 @@
               "context": null,
               "code": "cy.get('.color').each(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});",
               "err": {},
-              "uuid": "fe7180d7-411b-4b2e-b2a5-acb44b4ea000",
-              "parentUUID": "bfe17701-1808-451c-b2a6-53355da046c8",
+              "uuid": "b7b54901-98f4-4157-9458-a163b71995dd",
+              "parentUUID": "8edc6b5c-49be-4050-a42e-e53e192d27f0",
               "isHook": false,
               "skipped": true
             },
@@ -641,8 +641,8 @@
               "context": null,
               "code": "var colorToPixelIndexMap = {\n  0: 6,\n  1: 8,\n  2: 16,\n  3: 18\n};\ncy.get('.color').each(function (color, index) {\n  cy.wrap(color).click();\n  var backgroundColor = color.css('background-color');\n  var clickedPixelIndex = colorToPixelIndexMap[index];\n  cy.get('.pixel').eq(clickedPixelIndex).click();\n  cy.get('.pixel').eq(clickedPixelIndex - 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 1).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 5).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 6).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex - 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 4).should('not.have.css', 'background-color', backgroundColor);\n  cy.get('.pixel').eq(clickedPixelIndex + 6).should('not.have.css', 'background-color', backgroundColor);\n});",
               "err": {},
-              "uuid": "5de75a27-4b6c-4938-b586-48556b41b121",
-              "parentUUID": "bfe17701-1808-451c-b2a6-53355da046c8",
+              "uuid": "c65c401d-ad9a-4228-a721-0c0ffb0c3930",
+              "parentUUID": "8edc6b5c-49be-4050-a42e-e53e192d27f0",
               "isHook": false,
               "skipped": true
             }
@@ -650,20 +650,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "7945dbd7-db2c-44d4-b9cd-92f60fc07ca7"
+            "d71711b5-4630-4907-9270-57801d1ce406"
           ],
           "pending": [],
           "skipped": [
-            "fe7180d7-411b-4b2e-b2a5-acb44b4ea000",
-            "5de75a27-4b6c-4938-b586-48556b41b121"
+            "b7b54901-98f4-4157-9458-a163b71995dd",
+            "c65c401d-ad9a-4228-a721-0c0ffb0c3930"
           ],
-          "duration": 208,
+          "duration": 197,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "379764e6-9b57-476a-b912-6c3665df173d",
+          "uuid": "c6bbbf02-9c44-4c2c-9f9a-02ad665cf330",
           "title": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco.",
           "fullFile": "",
           "file": "",
@@ -674,7 +674,7 @@
               "title": "Verifica se o botão tem o `id` denominado `clear-board`",
               "fullTitle": "9 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco. Verifica se o botão tem o `id` denominado `clear-board`",
               "timedOut": null,
-              "duration": 253,
+              "duration": 202,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -683,12 +683,12 @@
               "context": null,
               "code": "cy.get('#clear-board').should('be.visible');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '9 - Crie um botão que, ao s...'",
                 "diff": null
               },
-              "uuid": "f36bb768-3d92-44a1-a1ba-c7e20e6c60ba",
-              "parentUUID": "379764e6-9b57-476a-b912-6c3665df173d",
+              "uuid": "7dc7591e-d7c1-408a-a516-7946df047ff2",
+              "parentUUID": "c6bbbf02-9c44-4c2c-9f9a-02ad665cf330",
               "isHook": false,
               "skipped": false
             },
@@ -705,8 +705,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#clear-board').should('be.belowOf', palette);\n});\ncy.get('#clear-board').then(function (clearBtn) {\n  cy.get('#pixel-board').should('be.belowOf', clearBtn);\n});",
               "err": {},
-              "uuid": "b4bc12c2-b41e-4aeb-8510-bede8ead1ff8",
-              "parentUUID": "379764e6-9b57-476a-b912-6c3665df173d",
+              "uuid": "0d9c9292-3b2d-4b1c-a47b-2630d6024471",
+              "parentUUID": "c6bbbf02-9c44-4c2c-9f9a-02ad665cf330",
               "isHook": false,
               "skipped": true
             },
@@ -723,8 +723,8 @@
               "context": null,
               "code": "cy.get('#clear-board').should('contain.text', 'Limpar');",
               "err": {},
-              "uuid": "cdf16264-62be-48cb-88fa-fcfe6dad1259",
-              "parentUUID": "379764e6-9b57-476a-b912-6c3665df173d",
+              "uuid": "c5d26b0a-13a1-41cc-a3c9-1115910934de",
+              "parentUUID": "c6bbbf02-9c44-4c2c-9f9a-02ad665cf330",
               "isHook": false,
               "skipped": true
             },
@@ -741,8 +741,8 @@
               "context": null,
               "code": "cy.get('.color').eq(1).then(function (color) {\n  var backgroundColor = color.css('background-color');\n  cy.wrap(color).click();\n  cy.get('.pixel').each(function (pixel) {\n    cy.wrap(pixel).click().should('have.css', 'background-color', backgroundColor);\n  });\n});\ncy.get('#clear-board').click();\ncy.get('.pixel').each(function (pixel) {\n  cy.wrap(pixel).should('have.css', 'background-color', WHITE);\n});",
               "err": {},
-              "uuid": "e91aa01b-6e00-4f31-9ece-d225243d318e",
-              "parentUUID": "379764e6-9b57-476a-b912-6c3665df173d",
+              "uuid": "21c43f10-70eb-4548-a25c-f6a94444a090",
+              "parentUUID": "c6bbbf02-9c44-4c2c-9f9a-02ad665cf330",
               "isHook": false,
               "skipped": true
             }
@@ -750,21 +750,21 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f36bb768-3d92-44a1-a1ba-c7e20e6c60ba"
+            "7dc7591e-d7c1-408a-a516-7946df047ff2"
           ],
           "pending": [],
           "skipped": [
-            "b4bc12c2-b41e-4aeb-8510-bede8ead1ff8",
-            "cdf16264-62be-48cb-88fa-fcfe6dad1259",
-            "e91aa01b-6e00-4f31-9ece-d225243d318e"
+            "0d9c9292-3b2d-4b1c-a47b-2630d6024471",
+            "c5d26b0a-13a1-41cc-a3c9-1115910934de",
+            "21c43f10-70eb-4548-a25c-f6a94444a090"
           ],
-          "duration": 253,
+          "duration": 202,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+          "uuid": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
           "title": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário.",
           "fullFile": "",
           "file": "",
@@ -775,7 +775,7 @@
               "title": "Verifica se existe um input com o id `board-size`",
               "fullTitle": "10 - Faça o quadro de pixels ter seu tamanho definido pelo usuário. Verifica se existe um input com o id `board-size`",
               "timedOut": null,
-              "duration": 205,
+              "duration": 206,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -784,12 +784,12 @@
               "context": null,
               "code": "cy.get('#board-size').should('be.visible');",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '10 - Faça o quadro de pixel...'",
                 "diff": null
               },
-              "uuid": "5a674b18-7880-4b09-8345-3028be785ac7",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "6b6d2e51-0369-417d-8d33-374a0fcd79b2",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": false
             },
@@ -806,8 +806,8 @@
               "context": null,
               "code": "cy.get('#generate-board').should('be.visible');",
               "err": {},
-              "uuid": "8ecfd9f3-bbad-4b26-9c75-f56f4a75d8e9",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "a65992f3-95d9-4612-b6ff-8af0a37998ba",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             },
@@ -824,8 +824,8 @@
               "context": null,
               "code": "cy.get('#board-size[type=\\'number\\'][min=\\'1\\']');",
               "err": {},
-              "uuid": "0e1bced2-0731-4b9f-8e18-b301164a88c8",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "c60ed924-9e28-4abe-85ce-3281a826eaf1",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             },
@@ -842,8 +842,8 @@
               "context": null,
               "code": "cy.get('#generate-board').contains(/vqv/i);",
               "err": {},
-              "uuid": "8e2463a4-c174-43d9-bb73-f1710a5ceaba",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "ff8bba51-9700-43f0-b1bf-f77b68d90451",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             },
@@ -860,8 +860,8 @@
               "context": null,
               "code": "cy.get('#color-palette').then(function (palette) {\n  cy.get('#board-size').should('be.belowOf', palette);\n});\ncy.get('#board-size').then(function (palette) {\n  cy.get('#pixel-board').should('be.belowOf', palette);\n});",
               "err": {},
-              "uuid": "c6aea269-3d49-449a-9a02-6145843ea5c0",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "1ff72ac4-8cdd-456a-a960-426f3e8fa0ed",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             },
@@ -878,8 +878,8 @@
               "context": null,
               "code": "cy.get('#board-size').then(function (board) {\n  cy.get('#generate-board').should('be.onTheRightOf', board);\n});",
               "err": {},
-              "uuid": "6bb7b34c-7272-40e6-9df7-cf75c4ed3dad",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "d3175d2f-2cf1-4fdf-977c-4ba6d5e204c8",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             },
@@ -896,8 +896,8 @@
               "context": null,
               "code": "var alerted = false;\ncy.on('window:alert', function (msg) {\n  return alerted = msg;\n});\ncy.get('#generate-board').click().then(function () {\n  return expect(alerted).to.match(/Board inválido!/i);\n});",
               "err": {},
-              "uuid": "ef992546-bd13-4b96-87c0-aa1baa82cf67",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "1d7356ce-ff46-483e-93bc-bf24857ef560",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             },
@@ -914,8 +914,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(10);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 100);",
               "err": {},
-              "uuid": "ff4b6daa-a8de-4a04-9192-8b722272361f",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "6823e4e0-5d5f-48d7-8a26-e295c82f2850",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             },
@@ -932,8 +932,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(6);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 36).each(function (pixel) {\n  expect(pixel).to.have.css('background-color', WHITE);\n});",
               "err": {},
-              "uuid": "b23445a8-e2b6-4cee-80cd-fe0a17afe7b5",
-              "parentUUID": "c59ad026-0d9b-499d-ae5a-04cd321a2f30",
+              "uuid": "0e825c48-ffd9-463b-954e-899b89913a98",
+              "parentUUID": "b178f0e2-2a40-4930-a02f-cd109eb6dca3",
               "isHook": false,
               "skipped": true
             }
@@ -941,26 +941,26 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "5a674b18-7880-4b09-8345-3028be785ac7"
+            "6b6d2e51-0369-417d-8d33-374a0fcd79b2"
           ],
           "pending": [],
           "skipped": [
-            "8ecfd9f3-bbad-4b26-9c75-f56f4a75d8e9",
-            "0e1bced2-0731-4b9f-8e18-b301164a88c8",
-            "8e2463a4-c174-43d9-bb73-f1710a5ceaba",
-            "c6aea269-3d49-449a-9a02-6145843ea5c0",
-            "6bb7b34c-7272-40e6-9df7-cf75c4ed3dad",
-            "ef992546-bd13-4b96-87c0-aa1baa82cf67",
-            "ff4b6daa-a8de-4a04-9192-8b722272361f",
-            "b23445a8-e2b6-4cee-80cd-fe0a17afe7b5"
+            "a65992f3-95d9-4612-b6ff-8af0a37998ba",
+            "c60ed924-9e28-4abe-85ce-3281a826eaf1",
+            "ff8bba51-9700-43f0-b1bf-f77b68d90451",
+            "1ff72ac4-8cdd-456a-a960-426f3e8fa0ed",
+            "d3175d2f-2cf1-4fdf-977c-4ba6d5e204c8",
+            "1d7356ce-ff46-483e-93bc-bf24857ef560",
+            "6823e4e0-5d5f-48d7-8a26-e295c82f2850",
+            "0e825c48-ffd9-463b-954e-899b89913a98"
           ],
-          "duration": 205,
+          "duration": 206,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "dd1f9595-bbd3-4995-8b08-b5c83003b94a",
+          "uuid": "f4ee0c2f-e563-4033-a26a-dd0b289d6f3f",
           "title": "11 - Limite o tamanho mínimo e máximo do board.",
           "fullFile": "",
           "file": "",
@@ -971,7 +971,7 @@
               "title": "Verifica se a altura máxima do board é 50",
               "fullTitle": "11 - Limite o tamanho mínimo e máximo do board. Verifica se a altura máxima do board é 50",
               "timedOut": null,
-              "duration": 263,
+              "duration": 205,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -980,12 +980,12 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(50);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '11 - Limite o tamanho mínim...'",
                 "diff": null
               },
-              "uuid": "f8421ef4-0366-40cf-a84e-7e592c5ebfde",
-              "parentUUID": "dd1f9595-bbd3-4995-8b08-b5c83003b94a",
+              "uuid": "16a2e20f-84d8-4cff-8579-ee82ac0164e5",
+              "parentUUID": "f4ee0c2f-e563-4033-a26a-dd0b289d6f3f",
               "isHook": false,
               "skipped": false
             },
@@ -1002,8 +1002,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(4);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 25);",
               "err": {},
-              "uuid": "4ef073ec-b9ea-43f5-8cad-982809146e44",
-              "parentUUID": "dd1f9595-bbd3-4995-8b08-b5c83003b94a",
+              "uuid": "8ae64f18-8ac9-4587-8adc-f10b62d3218c",
+              "parentUUID": "f4ee0c2f-e563-4033-a26a-dd0b289d6f3f",
               "isHook": false,
               "skipped": true
             },
@@ -1020,8 +1020,8 @@
               "context": null,
               "code": "cy.get('#board-size').clear().type(51);\ncy.get('#generate-board').click();\ncy.get('.pixel').should('have.length', 2500);",
               "err": {},
-              "uuid": "bdb5a264-fe77-42c7-bb0d-0a007aa4642a",
-              "parentUUID": "dd1f9595-bbd3-4995-8b08-b5c83003b94a",
+              "uuid": "de326f72-d608-420e-9a8c-56edca37d9f7",
+              "parentUUID": "f4ee0c2f-e563-4033-a26a-dd0b289d6f3f",
               "isHook": false,
               "skipped": true
             }
@@ -1029,20 +1029,20 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "f8421ef4-0366-40cf-a84e-7e592c5ebfde"
+            "16a2e20f-84d8-4cff-8579-ee82ac0164e5"
           ],
           "pending": [],
           "skipped": [
-            "4ef073ec-b9ea-43f5-8cad-982809146e44",
-            "bdb5a264-fe77-42c7-bb0d-0a007aa4642a"
+            "8ae64f18-8ac9-4587-8adc-f10b62d3218c",
+            "de326f72-d608-420e-9a8c-56edca37d9f7"
           ],
-          "duration": 263,
+          "duration": 205,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "8832afa1-56b0-491f-8720-85d96dac32ec",
+          "uuid": "5a6abcb7-b35d-435a-9d88-cf6c80c34d57",
           "title": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página.",
           "fullFile": "",
           "file": "",
@@ -1053,7 +1053,7 @@
               "title": "Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "fullTitle": "12 - Faça com que as cores da paleta sejam geradas aleatoriamente ao carregar a página. Verifica se as cores geradas na paleta são diferentes a cada carregamento da página",
               "timedOut": null,
-              "duration": 231,
+              "duration": 198,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -1062,12 +1062,12 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {
-                "message": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
-                "estack": "Uncaught SyntaxError: Unexpected token ')'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
+                "message": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
+                "estack": "Uncaught SyntaxError: Unexpected token '}'\n\nThis error originated from your application code, not from Cypress.\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the 'uncaught:exception' event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n\nBecause this error occurred during a 'before each' hook we are skipping the remaining tests in the current suite: '12 - Faça com que as cores ...'",
                 "diff": null
               },
-              "uuid": "2c2149ba-e081-40f6-a820-1fe2d375cb9d",
-              "parentUUID": "8832afa1-56b0-491f-8720-85d96dac32ec",
+              "uuid": "0ac51662-29c8-44f5-b96f-8ab1d41661eb",
+              "parentUUID": "5a6abcb7-b35d-435a-9d88-cf6c80c34d57",
               "isHook": false,
               "skipped": false
             },
@@ -1084,8 +1084,8 @@
               "context": null,
               "code": "cy.get('.color').then(function (colors) {\n  var currentColors;\n  var previousColors;\n  previousColors = Array.from(colors).map(function (color) {\n    return Cypress.$(color).css('background-color');\n  });\n  expect(previousColors[0]).to.eq(BLACK);\n  for (var i = 0; i < 5; i += 1) {\n    cy.reload();\n    cy.get('.color').then(function (colors) {\n      currentColors = Array.from(colors).map(function (color) {\n        return Cypress.$(color).css('background-color');\n      });\n      expect(currentColors[0]).to.eq(BLACK);\n      expect(currentColors).not.to.deep.equal(previousColors);\n      previousColors = currentColors;\n    });\n  }\n});",
               "err": {},
-              "uuid": "01a7bb97-ca1c-4926-be89-812efaadc59e",
-              "parentUUID": "8832afa1-56b0-491f-8720-85d96dac32ec",
+              "uuid": "544d963d-64f1-412a-a5e5-53e37bb0923f",
+              "parentUUID": "5a6abcb7-b35d-435a-9d88-cf6c80c34d57",
               "isHook": false,
               "skipped": true
             }
@@ -1093,13 +1093,13 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "2c2149ba-e081-40f6-a820-1fe2d375cb9d"
+            "0ac51662-29c8-44f5-b96f-8ab1d41661eb"
           ],
           "pending": [],
           "skipped": [
-            "01a7bb97-ca1c-4926-be89-812efaadc59e"
+            "544d963d-64f1-412a-a5e5-53e37bb0923f"
           ],
-          "duration": 231,
+          "duration": 198,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
