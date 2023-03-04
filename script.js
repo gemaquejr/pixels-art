@@ -1,34 +1,50 @@
-const pixelSelected = document.getElementsByClassName('color');
-
-function colorSelected(Event) {
-  for (let i = 0; i < pixelSelected.length; i += 1) {
-    pixelSelected[i].classList.remove('selected');
-    Event.target.classList.add('selected');
+function createDefaultBoard() {
+  const pixelBoard = document.getElementById('pixel-board');
+  for (let i = 0; i < 25; i += 1) {
+    const pixelCreated = document.createElement('div');
+    pixelCreated.classList.add('pixel');
+    pixelBoard.appendChild(pixelCreated);
   }
 }
 
-for (let i = 0; i < pixelSelected.length; i += 1) {
-  pixelSelected[i].addEventListener('click', colorSelected);
-}
-/* Ajuda do Sumo na mentoria. Valeu, Sumo ! */
-function fillColor(Event) {
-  const paintAdd = document.querySelector('.selected');
-  const background = window.getComputedStyle(paintAdd).getPropertyValue('background-Color');
-  Event.target.style.backgroundColor = background;
-}
-const painted = document.getElementsByClassName('pixel');
-
-for (let i = 0; i < painted.length; i += 1) {
-  painted[i].addEventListener('click', fillColor);
+function colorRemoved() {
+  const pixelSelected = document.querySelector('.selected');
+  pixelSelected.classList.remove('selected');
 }
 
-const Button = document.getElementById('clear-board');
-const pixels = document.getElementsByClassName('pixel');
+function colorAdded() {
+  const painted = document.getElementsByClassName('color');
+  for (let i = 0; i < painted.length; i += 1) {
+    painted[i].addEventListener('click', (e) => {
+      colorRemoved();
+      e.target.classList.add('selected');
+    });
+  }
+}
+
+function fillColor() {
+  const pixelClicked = document.getElementsByClassName('pixel');
+  for (let i = 0; i < pixelClicked.length; i += 1) {
+    pixelClicked[i].addEventListener('click', (e) => {
+      const paintAdd = document.querySelector('.selected');
+      const background = window.getComputedStyle(paintAdd);
+      const selectedBackground = background.getPropertyValue('background-Color');
+      e.target.style.backgroundColor = selectedBackground;
+    });
+  }
+}
 
 function clearGame() {
-  for (let i = 0; i < pixels.length; i += 1) {
-    pixels[i].style.backgroundColor = 'white';
-  }
+  const button = document.getElementById('clear-board');
+  button.addEventListener('click', () => {
+    const pixels = document.getElementsByClassName('pixel');
+    for (let i = 0; i < pixels.length; i += 1) {
+      pixels[i].style.backgroundColor = 'white';
+    }
+  });
 }
 
-Button.addEventListener('click', clearGame);
+createDefaultBoard();
+colorAdded();
+fillColor();
+clearGame();
