@@ -1,13 +1,27 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Pixels Art
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+O projeto consistia em desenvolver uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+![preview](.github/preview.png)
+
+## 🚀 Tecnologia
+
+- ⚡ JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.
+
+- ⚡ HTML é a linguagem base para se desenvolver qualquer site. 
+
+- ⚡ CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas HTML.
+
+## ✋🏻 Pré-requisitos
+
+- [git](https://git-scm.com/downloads): Ferramenta para gerenciar o código-fonte
+
+- [Visual Studio Code](https://code.visualstudio.com/): Editor de Código Fonte
+
+## :hammer_and_wrench: Antes de iniciar o projeto.
+
+No diretório do projeto, instale as dependências e inicialize o projeto:
+
+### `npm install`
+
+Instala as dependências.
