@@ -2,7 +2,7 @@
 
 Terceiro projeto desenvolvido no módulo de Fundamentos do Curso de Desenvolvimento Web da Trybe.
 
-![preview](.github/preview.png)
+![preview](.github/preview.gif)
 
 O projeto consistia em desenvolver uma página web que contém uma paleta de cores funcional que poderá ser utilizada para criar desenhos em pixels.
 
